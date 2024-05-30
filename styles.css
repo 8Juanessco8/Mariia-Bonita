@@ -1,0 +1,174 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0ff;
+    color: #000;
+}
+
+header {
+    text-align: center;
+    background-color: #d0d0ff;
+    position: relative;
+}
+
+.discount-banner {
+    background-color: #b0b0ff;
+    padding: 10px 0;
+}
+
+.discount-banner p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.main-banner {
+    padding: 60px 0; 
+    background: url(src/imagenes/tienda/tienda.jpeg) no-repeat center center;
+    background-size: cover; 
+    color: #fff;
+    position: relative;
+    min-height: 500px; 
+}
+
+.main-banner h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+.main-banner p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.scroll-banner {
+    background-color: #d0d0ff;
+    padding: 10px 0;
+}
+
+.scroll-banner p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.most-sold {
+    padding: 20px;
+    text-align: center;
+}
+
+.most-sold h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.most-sold p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    position: relative;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product .offer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: #ffcc00;
+}
+
+.product .category {
+    font-size: 14px;
+    color: #666;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    color: #333;
+}
+
+.product .price {
+    font-size: 18px;
+    color: #e74c3c;
+    margin-top: 10px;
+}
+
+
+
+.WhatsApp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.WhatsApp-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.Logos {
+    display: flex;
+    justify-content: end;
+    height: 12px;
+}
+
+.Logo-IG {
+    padding: 8px;
+    width: 30px; 
+    height: 30px; 
+}
+
+.Logo-GMAIL {
+    width: 30px; 
+    height: 46px; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #d0d0ff;
+}
+
+@media (max-width: 768px) {
+    .category-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
