@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -7,28 +6,42 @@ body {
 }
 
 header {
-    text-align: center;
     background-color: #d0d0ff;
     position: relative;
+    padding: 10px 0;
 }
 
 .discount-banner {
     background-color: #b0b0ff;
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.discount-banner .Logos {
+    display: flex;
+    gap: 10px;
 }
 
 .discount-banner p {
     margin: 0;
     font-size: 1.2em;
+    flex-grow: 1;
+    text-align: center;
 }
 
 .main-banner {
-    padding: 60px 0; 
+    padding: 60px 20px; 
     background: url(src/imagenes/tienda/tienda.jpeg) no-repeat center center;
     background-size: cover; 
     color: #fff;
     position: relative;
     min-height: 500px; 
+    text-align: center;
 }
 
 .main-banner h1 {
@@ -54,6 +67,8 @@ header {
 .scroll-banner {
     background-color: #d0d0ff;
     padding: 10px 0;
+    width: 100%;
+    text-align: center;
 }
 
 .scroll-banner p {
@@ -78,15 +93,16 @@ header {
 
 .Ropa {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
-    
 }
 
 .card {
     height: 200px;
     width: 200px;
     position: relative;
-    font-size: .8rem;
+    font-size: 0.8rem;
 }
 
 .card p {
@@ -94,12 +110,11 @@ header {
     z-index: 10;
     display: flex;
     justify-content: flex-end;
-    align-items: end;
+    align-items: flex-end;
     backdrop-filter: blur(5px);
     color: black;
     height: 4vh;
     width: 130px;
-    
 }
 
 .card a {
@@ -111,7 +126,6 @@ header {
     justify-content: flex-end;
     flex-direction: column;
     padding: 10px;
-
 }
 
 .card img {
@@ -123,17 +137,11 @@ header {
     z-index: 5;
     border-radius: 10px;
     filter: grayscale(30%);
-
-
 }
 
-.Categorias-ropa .card:hover{
+.Categorias-ropa .card:hover {
     transform: scale(1.1, 1.1);
 }
-
-
-
-
 
 .WhatsApp-icon {
     position: fixed;
@@ -147,22 +155,16 @@ header {
     height: 50px;
 }
 
-
 .Logos {
     display: flex;
-    justify-content: end;
-    height: 12px;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
-.Logo-IG {
-    padding: 8px;
-    width: 30px; 
-    height: 30px; 
-}
-
+.Logo-IG,
 .Logo-GMAIL {
     width: 30px; 
-    height: 46px; 
+    height: 30px; 
 }
 
 footer {
@@ -171,27 +173,66 @@ footer {
     background-color: #d0d0ff;
 }
 
-@media (max-width: 480px) {
+/* Media Queries */
+@media (max-width: 1024px) {
+    .main-banner h1 {
+        font-size: 2em;
+    }
+
+    .main-banner p {
+        font-size: 1em;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+
+    .Categorias-ropa h2 {
+        font-size: 1.8em;
+    }
+
+    .Categorias-ropa p {
+        font-size: 1em;
+    }
+
+    .card {
+        height: 180px;
+        width: 180px;
+    }
+
+    .card img {
+        height: 180px;
+        width: 120px;
+    }
+
+    .card p {
+        height: 3.5vh;
+        width: 110px;
+    }
+}
+
+@media (max-width: 768px) {
     .discount-banner {
         flex-direction: column;
         gap: 10px;
     }
 
     .main-banner h1 {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     .main-banner p {
         font-size: 0.9em;
     }
 
-    .main-banner .btn {
+    .btn {
         padding: 8px 16px;
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     .Categorias-ropa h2 {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     .Categorias-ropa p {
@@ -199,8 +240,66 @@ footer {
     }
 
     .card {
-        width: 100%;
-        max-width: 300px;
+        height: 160px;
+        width: 160px;
+    }
+
+    .card img {
+        height: 160px;
+        width: 100px;
+    }
+
+    .card p {
+        height: 3vh;
+        width: 90px;
+    }
+
+    .WhatsApp-icon img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-banner {
+        padding: 40px 0;
+        min-height: 400px;
+    }
+
+    .main-banner h1 {
+        font-size: 1.2em;
+    }
+
+    .main-banner p {
+        font-size: 0.8em;
+    }
+
+    .btn {
+        padding: 6px 12px;
+        font-size: 0.7em;
+    }
+
+    .Categorias-ropa h2 {
+        font-size: 1.2em;
+    }
+
+    .Categorias-ropa p {
+        font-size: 0.8em;
+    }
+
+    .card {
+        height: 140px;
+        width: 140px;
+    }
+
+    .card img {
+        height: 140px;
+        width: 80px;
+    }
+
+    .card p {
+        height: 2.5vh;
+        width: 70px;
     }
 
     .WhatsApp-icon img {
@@ -208,3 +307,4 @@ footer {
         height: 30px;
     }
 }
+
