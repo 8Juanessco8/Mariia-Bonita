@@ -61,73 +61,77 @@ header {
     font-size: 1.2em;
 }
 
-.most-sold {
+.Categorias-ropa {
     padding: 20px;
     text-align: center;
 }
 
-.most-sold h2 {
+.Categorias-ropa h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.most-sold p {
+.Categorias-ropa p {
     font-size: 16px;
     margin-bottom: 20px;
 }
 
-.products {
+.Ropa {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    
 }
 
-.product {
-    background-color: #f4f4f4;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(50% - 20px);
-    max-width: calc(50% - 20px);
+.card {
+    height: 200px;
+    width: 200px;
     position: relative;
+    font-size: .8rem;
 }
 
-.product img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.card p {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    backdrop-filter: blur(5px);
+    color: black;
+    height: 4vh;
+    width: 130px;
+    
 }
 
-.product .offer {
+.card a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.card img {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 24px;
-    color: #ffcc00;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 140px;
+    z-index: 5;
+    border-radius: 10px;
+    filter: grayscale(30%);
+
+
 }
 
-.product .category {
-    font-size: 14px;
-    color: #666;
+.Categorias-ropa .card:hover{
+    transform: scale(1.1, 1.1);
 }
 
-.product h3 {
-    font-size: 18px;
-    margin: 10px 0;
-}
 
-.product p {
-    font-size: 16px;
-    color: #333;
-}
-
-.product .price {
-    font-size: 18px;
-    color: #e74c3c;
-    margin-top: 10px;
-}
 
 
 
@@ -135,6 +139,7 @@ header {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index: 10;
 }
 
 .WhatsApp-icon img {
