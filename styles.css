@@ -261,13 +261,55 @@ footer {
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
+    .product .product-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .main-banner {
+        padding: 40px 10px;
+        min-height: 400px;
+    }
+    
     .main-banner h1 {
         font-size: 2em;
     }
-
+    
     .main-banner p {
         font-size: 1em;
+    }
+
+    .product .product-item {
+        width: calc(100% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .discount-banner p {
+        font-size: 1em;
+    }
+    
+    .main-banner {
+        padding: 30px 5px;
+        min-height: 300px;
+    }
+    
+    .main-banner h1 {
+        font-size: 1.5em;
+    }
+    
+    .main-banner p {
+        font-size: 0.9em;
+    }
+
+    .Categorias-ropa h2 {
+        font-size: 20px;
+    }
+    
+    .Categorias-ropa p {
+        font-size: 14px;
     }
 
     .btn {
@@ -275,14 +317,10 @@ footer {
         font-size: 0.9em;
     }
 
-    .Categorias-ropa h2 {
-        font-size: 1.8em;
+    .product .product-item {
+        width: 100%;
     }
-
-    .Categorias-ropa p {
-        font-size: 1em;
-    }
-
+    
     .card {
         height: 180px;
         width: 180px;
@@ -290,108 +328,7 @@ footer {
 
     .card img {
         height: 180px;
-        width: 120px;
-    }
-
-    .card p {
-        height: 3.5vh;
-        width: 110px;
-    }
-}
-
-@media (max-width: 768px) {
-    .discount-banner {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .main-banner h1 {
-        font-size: 1.5em;
-    }
-
-    .main-banner p {
-        font-size: 0.9em;
-    }
-
-    .btn {
-        padding: 8px 16px;
-        font-size: 0.8em;
-    }
-
-    .Categorias-ropa h2 {
-        font-size: 1.5em;
-    }
-
-    .Categorias-ropa p {
-        font-size: 0.9em;
-    }
-
-    .card {
-        height: 160px;
-        width: 160px;
-    }
-
-    .card img {
-        height: 160px;
-        width: 100px;
-    }
-
-    .card p {
-        height: 3vh;
-        width: 90px;
-    }
-
-    .WhatsApp-icon img {
-        width: 40px;
-        height: 40px;
-    }
-}
-
-@media (max-width: 480px) {
-    .main-banner {
-        padding: 40px 0;
-        min-height: 400px;
-    }
-
-    .main-banner h1 {
-        font-size: 1.2em;
-    }
-
-    .main-banner p {
-        font-size: 0.8em;
-    }
-
-    .btn {
-        padding: 6px 12px;
-        font-size: 0.7em;
-    }
-
-    .Categorias-ropa h2 {
-        font-size: 1.2em;
-    }
-
-    .Categorias-ropa p {
-        font-size: 0.8em;
-    }
-
-    .card {
-        height: 140px;
         width: 140px;
-    }
-
-    .card img {
-        height: 140px;
-        width: 80px;
-    }
-
-    .card p {
-        height: 2.5vh;
-        width: 70px;
-    }
-
-    .WhatsApp-icon img {
-        width: 30px;
-        height: 30px;
     }
 }
 
