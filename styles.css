@@ -1,18 +1,18 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #e0e0ff;
+    background-color: #a4fff7;
     color: #000;
 }
 
 header {
-    background-color: #d0d0ff;
+    background-color: #68ddbd;
     position: relative;
     padding: 10px 0;
 }
 
 .discount-banner {
-    background-color: #b0b0ff;
+    background-color: #68ddbd;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -42,6 +42,10 @@ header {
     position: relative;
     min-height: 500px; 
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-banner h1 {
@@ -65,7 +69,7 @@ header {
 }
 
 .scroll-banner {
-    background-color: #d0d0ff;
+    background-color: #68ddbd;
     padding: 10px 0;
     width: 100%;
     text-align: center;
@@ -96,6 +100,13 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    box-shadow: #000;
+    display: flex;
+    width: 100%; 
+    height: auto; 
+    
+
+
 }
 
 .card {
@@ -156,21 +167,9 @@ header {
     height: 50px;
 }
 
-.Logos {
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-}
-
-.Logo-IG,
-.Logo-GMAIL {
-    width: 30px; 
-    height: 30px; 
-}
-
 #products-section {
     padding: 20px;
-    background-color: #e0e0ff;
+    background-color: #a4fff7;
     border-top: 2px solid #ccc;
     margin-top: 20px;
     
@@ -178,7 +177,7 @@ header {
 }
 
 #products-section h2 {
-    background-color: #d0d0ff;
+    background-color: #68ddbd;
     font-size: 26px;
     height: 55px;
     color: #333;
@@ -198,7 +197,7 @@ header {
 }
 
 .product .product-item {
-    background-color: #d0d0ff;
+    background-color: #EBF3F2;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -257,7 +256,7 @@ header {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #d0d0ff;
+    background-color: #03bb85;
 }
 
 
