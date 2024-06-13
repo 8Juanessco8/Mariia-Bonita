@@ -1,18 +1,18 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #a4fff7;
+    background-color: #eafaef;
     color: #000;
 }
 
 header {
-    background-color: #68ddbd;
+    background-color: #7debcd;
     position: relative;
     padding: 10px 0;
 }
 
 .discount-banner {
-    background-color: #68ddbd;
+    background-color: #7debcd;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -69,7 +69,7 @@ header {
 }
 
 .scroll-banner {
-    background-color: #68ddbd;
+    background-color: #7debcd;
     padding: 10px 0;
     width: 100%;
     text-align: center;
@@ -123,10 +123,10 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    backdrop-filter: blur(5px);
-    color: black;
+    color: rgb(0, 0, 0);
     height: 4vh;
     width: 130px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .card a {
@@ -169,7 +169,7 @@ header {
 
 #products-section {
     padding: 20px;
-    background-color: #a4fff7;
+    background-color: #eafaef;
     border-top: 2px solid #ccc;
     margin-top: 20px;
     
@@ -256,7 +256,7 @@ header {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #68ddbd;
+    background-color: #7debcd;
 }
 
 

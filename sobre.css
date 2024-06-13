@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #68ddbd;
+    background-color: #7debcd;
     padding: 20px;
     text-align: center;
 }
@@ -94,7 +94,7 @@ main {
 
 footer {
     min-height: 70px;
-    background-color: #68ddbd;
+    background-color: #7debcd;
     color: #000;
     text-align: center;
     width: 100%;
