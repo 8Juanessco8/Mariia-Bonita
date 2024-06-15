@@ -322,7 +322,7 @@ footer {
     
     .card {
         height: 180px;
-        width: 180px;
+        width: fit-content;
     }
 
     .card img {
