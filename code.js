@@ -319,7 +319,7 @@ function showProducts(category) {
                             <p class="price">$150.000 (IVA incluido)</p>
                         </div>
                         <div class="product-item">
-                            <img src="src/imagenes/Chaquetas/Gaban Tuche-camel.jpeg" alt="chaqueta 8">
+                            <img src="src/imagenes/Chaquetas/Gaban Tuche-Camel.jpeg" alt="chaqueta 8">
                             <p class="product-category">Chaquetas</p>
                             <h3>Gaban Tuche <br> Camel</h3>
                             <p>Talla: M L y XL</p>
@@ -383,7 +383,7 @@ function showProducts(category) {
                             <p class="price">$150.000 (IVA incluido)</p>
                         </div>
                         <div class="product-item">
-                            <img src="src/imagenes/Chaquetas/Chaqueta Gamuza-Azul turquesa.jpeg" alt="chaqueta 17">
+                            <img src="src/imagenes/Chaquetas/Chaqueta Gamuza-Azul Turquesa.jpeg" alt="chaqueta 17">
                             <p class="product-category">Chaquetas</p>
                             <h3>Chaqueta Gamuza <br> Azul turquesa</h3>
                             <p>Talla: M, L y XL</p>
