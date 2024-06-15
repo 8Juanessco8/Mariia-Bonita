@@ -46,6 +46,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .main-banner h1 {
@@ -121,11 +122,13 @@ header {
     position: relative;
     z-index: 10;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     color: rgb(0, 0, 0);
+    border-radius: 35px;
+    background-color: #eafaef;
     height: 4vh;
-    width: 130px;
+    width: 113px;
     font-family:'Times New Roman', Times, serif;
 }
 

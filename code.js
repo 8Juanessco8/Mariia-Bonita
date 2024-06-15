@@ -526,6 +526,16 @@ function showProducts(category) {
     if (newSection) {
         newSection.scrollIntoView({ behavior: 'smooth' });
     }
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    
+    function showNextSlide() {
+        slides[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % slides.length;
+        slides[currentIndex].classList.add('active');
+    }
+    
+    setInterval(showNextSlide, 3000); // Cambia la imagen cada 3 segundos
 }
 
 
