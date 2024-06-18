@@ -15,7 +15,7 @@ header {
 
 .Encabezado {
     display: flex;
-    gap: 45px;
+    gap: 25px;
     padding: 0;
     margin: 0;
     text-decoration: none;
