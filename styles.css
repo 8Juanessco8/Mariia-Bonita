@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #eafaef;
-    color: #000;
+    background-color: #061801;
+    color: #fff;
 }
 
 
@@ -19,13 +19,13 @@ height: 30px;
 
 }
 header {
-    background-color: #7debcd;
+    background-color: #073f0e;
     position: relative;
     padding: 10px 0;
 }
 
 .discount-banner {
-    background-color: #7debcd;
+    background-color: #073f0e;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -84,7 +84,7 @@ header {
 }
 
 .scroll-banner {
-    background-color: #7debcd;
+    background-color: #073f0e;
     padding: 10px 0;
     width: 100%;
     text-align: center;
@@ -98,6 +98,7 @@ header {
 .Categorias-ropa {
     padding: 20px;
     text-align: center;
+    color: #ffff;
 
 }
 
@@ -148,9 +149,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: #FFFF;
     border-radius: 35px;
-    background-color: #eafaef;
+    background-color: #061801;
     height: 4vh;
     width: 113px;
     font-family:'Times New Roman', Times, serif;
@@ -196,7 +197,7 @@ header {
 
 #products-section {
     padding: 20px;
-    background-color: #eafaef;
+    background-color: #061801;
     border-top: 2px solid #ccc;
     margin-top: 20px;
     
@@ -204,10 +205,10 @@ header {
 }
 
 #products-section h2 {
-    background-color: #68ddbd;
+    background-color: #073f0e;
     font-size: 26px;
     height: 55px;
-    color: #333;
+    color: #ffff;
     margin-bottom: 15px;
     display: flex;
     justify-content: center;
@@ -283,7 +284,8 @@ header {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #7debcd;
+    color: #FFFF;
+    background-color: #073f0e;
 }
 
 
