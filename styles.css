@@ -5,6 +5,19 @@ body {
     color: #000;
 }
 
+
+
+.Descuento-tienda{
+background-color: #000;
+display: flex;
+justify-content:center ;
+align-items: center;
+height: 30px;
+
+    color: #ffff;
+
+
+}
 header {
     background-color: #7debcd;
     position: relative;
